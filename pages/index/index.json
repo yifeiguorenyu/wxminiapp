@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "magic-number": "/pages/magicNumber/mnum"
+  },
+  "navigationBarTitleText": "微信接口功能演示"
+}

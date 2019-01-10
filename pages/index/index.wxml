@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<import src="template" />
+<wxs module="tool" src="tool.wxs"></wxs>
+
+
+<view class="container"  id="container">
+
+
+
+  <!-- <template is="stringName" data="{{name:'易飞'}}"></template>
+  <include src="header" />
+  <template is="renderList" data="{{names:names}}"></template>
+  <template is="ofcondition" data="{{score:score}}"></template> -->
+  <!-- <magic-number now-in="Index" bind:getMagicNumber="onGetMagicNumber"></magic-number>
+  <view >
+    <text id="text" data-name="文字" style='color:{{color}}'>
+     {{num}}
+  </text>
+  </view> -->
+  <!-- <view wx:for="{{tool(names)}}">
+    {{item}}
+    </view> -->
+
+<!-- <view
+  class="num"
+  id='num'
+  style="color:#213c88"
+  data-name="num"
+  bindtap='onNumTap'
+  hidden
+>
+  {{num}}
+</view> -->
+
+  <view>首页</view>
+  <navigator url="/pages/yiyufei/index" open-type='navigate'>易云飞</navigator>
+  <navigator url='/pages/ablout/about'>about</navigator>
+
+  <button open-type='getUserInfo' bindGetUserInfo="getUserInfo">获取用户信息授权</button>
+  </view>

@@ -1,0 +1,3 @@
+<!--pages/yiyufei/index.wxml-->
+<text>pages/yiyufei/index.wxml</text>
+ <navigator url='/pages/ablout/about'>about</navigator>

@@ -1,0 +1,10 @@
+<!--pages/ablout/about.wxml-->
+<text>关于</text>
+<!-- <navigator url='/pages/yifei/index' open-type='switchTab'>首页</navigator> -->
+<!-- <navigator  open-type='navigateBack'>返回</navigator> -->
+
+<!-- <navigator  url='/pages/yiyufei/index' open-type='redirect'>重定向</navigator> -->
+
+<navigator  url='/pages/index/index' open-type='reLaunch'>reLaunch</navigator>
+
+<view bindtap='onGotoYiyufei'>使用api跳转到易宇飞</view>

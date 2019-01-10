@@ -1,0 +1,4 @@
+function createNames(names) {
+  return names.split(',')
+}
+module.exports = createNames;

@@ -1,0 +1,18 @@
+@import "../../common/style/common.wxss"
+
+page {
+  height: 100%;
+}
+.pressButton{
+ padding: 50rpx 0;
+ background: #052b96;
+ width: 375rpx;
+}
+progress{
+  width: 600rpx;
+
+}
+input{
+  border: 2rpx solid #00000018;
+  background-color: #fff;
+}

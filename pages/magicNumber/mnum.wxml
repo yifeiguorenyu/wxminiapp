@@ -1,0 +1,5 @@
+<view>{{nowIn}} is here!</view>
+<view class='pressBtn' id='view' data-name='容器'>
+  <view>{{magicNumber}}</view>
+  <text id='text' data-name='文字' bindtap='onTap'>点我可以打印信息</text>
+</view>
